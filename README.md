@@ -5,12 +5,28 @@
 
 เป็นเหตุให้เปิด Docs ของ Laravel แล้วก็อ่าน Blog อีกหลายบทความ จนเกิดเป็น Repository นี้ขึ้นมา
 
+## About the Side-project
+พอคิดว่าอยากทำให้มันเข้าใจง่ายๆ เลยคิดว่าถ้าเป็น "ระบบจัดการอีเวนท์" คล้ายๆ Eventpop ที่จะพยายามประยุกค์ใช้ทุกอย่างที่ Laravel ให้มากที่สุด มาเริ่มวาง Todolist กันก่อน ... ถ้าเครียดๆ จากสอบไฟนอล จะมานั่งทำดู
+
 ## Todolist
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**, @mentions, #1234 refs
-- [ ] incomplete
-- [x] completed
+- [ ] Initial Front End with NextJS and Semantic UI.
+- [ ] Initial RESTful API with Laravel
+  - [ ] Events Model
+  - [ ] Users Model
+  - [ ] Tickets Model
+- [ ] Implement API Authentication
+  - [ ] Email/Password Login
+  - [ ] Facebook Login
+  - [ ] Redis Server
+- [ ] Implement Authorization
+- [ ] Implement Services
+  - [ ] Email Sender
+  - [ ] Line Notify
+- [ ] Implement Error Handles
+  - [ ] Sentry Logging
+- [ ] Test it now !
+- [ ] Task Scheduling for Daily Ranking
+- [ ] 
 
 ## References
 
@@ -18,11 +34,12 @@
 - [A modern REST API in Laravel 5 Part 2: Resource controls](http://esbenp.github.io/2016/04/15/modern-rest-api-laravel-part-2/)
 - [A modern REST API in Laravel 5 Part 3: Error handling](http://esbenp.github.io/2017/01/14/modern-rest-api-laravel-part-3/)
 - [A modern REST API in Laravel 5 Part 4: Authentication using Laravel Passport](http://esbenp.github.io/2017/03/19/modern-rest-api-laravel-part-4/)
-- [A modern REST API in Laravel 5 Part 3: Error handling](http://esbenp.github.io/2017/01/14/modern-rest-api-laravel-part-3/)
 - [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/)
 - [HTTP Status Codes](https://httpstatuses.com/)
 - [Implementing before/after middleware in PHP](http://esbenp.github.io/2015/07/31/implementing-before-after-middleware/)
 - [Domain-Driven Design (DDD) in Domainlanguage.com](https://domainlanguage.com/)
 - [Hexagonal Architecture](http://fideloper.com/hexagonal-architecture)
+
+---
 
 > ทั้งหมดใน Repository นี้ หวังอยู่อย่างเดียวมองทุกอย่างให้ลึกลงไป มากกว่าแค่ Route - Controller - Model - View และพยายามให้มันกลายเป็น API Server ที่ดีพอที่คนอื่นที่สนใจจะกลับมาดูมันและต่อยอดได้ฮะผม
