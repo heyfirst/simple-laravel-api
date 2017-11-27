@@ -10,6 +10,20 @@
 
 ## Todolist
 - [ ] Initial Front End with NextJS and Semantic UI.
+  - [ ] Main Site
+    - [ ] Axios with Authorization Headers
+    - [ ] Homepage Page
+    - [ ] Browse Page
+    - [ ] Event Page
+    - [ ] User Page
+    - [ ] Ticket Page
+    - [ ] Login/Register Page
+    - [ ] Requesting Event Page
+  - [ ] Admin Site
+    - [ ] Events Management
+    - [ ] User Management
+    - [ ] System Setting
+    - [ ] Event Approval
 - [ ] Initial RESTful API with Laravel
   - [ ] Events Model
   - [ ] Users Model
@@ -26,7 +40,6 @@
   - [ ] Sentry Logging
 - [ ] Test it now !
 - [ ] Task Scheduling for Daily Ranking
-- [ ] 
 
 ## References
 
